@@ -1,4 +1,5 @@
 package grafica;
+
 import logica.LstUsuarios;
 import persistencia.Archivo;
 
@@ -102,7 +103,7 @@ public class FrmPrincipal extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void btnAltaUsuarioActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnAltaUsuarioActionPerformed
-        // Abre la ventana encargada de registrar usuarios (solo falta terminar el archivo.java)
+        // Abre la ventana encargada de registrar usuarios (solo falta terminar el visual del FrmAltaUsuario.java)
         FrmAltaUsuario altaUsuario = new FrmAltaUsuario();
 
         dskPanel.add(altaUsuario);
@@ -110,7 +111,7 @@ public class FrmPrincipal extends javax.swing.JFrame {
     }//GEN-LAST:event_btnAltaUsuarioActionPerformed
 
     private void btnHistorialActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnHistorialActionPerformed
-        // Abre la ventana encargada de ver el historial de inicios de sesión (solo falta terminar el archivo.java)
+        // Abre la ventana encargada de ver el historial de inicios de sesión (solo falta terminar el visual del FrmHistorial.java)
         FrmHistorial historial = new FrmHistorial();
 
         dskPanel.add(historial);
@@ -118,7 +119,7 @@ public class FrmPrincipal extends javax.swing.JFrame {
     }//GEN-LAST:event_btnHistorialActionPerformed
 
     private void btnModificarContraseniaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnModificarContraseniaActionPerformed
-        // Abre la ventana encargada de la modificación de contraseñas (solo falta terminar el archivo.java)
+        // Abre la ventana encargada de la modificación de contraseñas (solo falta terminar el visual del FrmModificarContrasenia.java)
         FrmModificarContrasenia modificarContrasenia = new FrmModificarContrasenia();
 
         dskPanel.add(modificarContrasenia);
@@ -126,7 +127,7 @@ public class FrmPrincipal extends javax.swing.JFrame {
     }//GEN-LAST:event_btnModificarContraseniaActionPerformed
 
     private void btnIniciarSesionActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnIniciarSesionActionPerformed
-        // Abre la ventana encargada del inicio de sesión (solo falta terminar el archivo.java)
+        // Abre la ventana encargada del inicio de sesión (solo falta terminar el visual del FrmIniciarSesion.java)
         FrmIniciarSesion iniciarSesion = new FrmIniciarSesion();
 
         dskPanel.add(iniciarSesion);
