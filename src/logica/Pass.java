@@ -10,7 +10,7 @@ public class Pass implements Serializable{
     private TIPO tipo;
     
     /**
-     * <p> Su función es servir para clasificar las contraseñas (Logica de Joaquin)
+     * <p> Su función es servir para clasificar las contraseñas (Logica de Joaquin)</p>
      * 
      */
     public enum TIPO{
@@ -20,7 +20,6 @@ public class Pass implements Serializable{
     }
     
     /**
-     * 
      * <p> Esto inicializa todo, y hace que se genere la contraseña
      * 
      */
