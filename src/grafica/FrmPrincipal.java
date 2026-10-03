@@ -98,15 +98,24 @@ public class FrmPrincipal extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void btnAltaUsuarioActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnAltaUsuarioActionPerformed
-      
+        FrmAltaUsuario altaUsuario = new FrmAltaUsuario();
+
+        dskPanel.add(altaUsuario);
+        altaUsuario.setVisible(true);
     }//GEN-LAST:event_btnAltaUsuarioActionPerformed
 
     private void btnHistorialActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnHistorialActionPerformed
-        
+        FrmHistorial historial = new FrmHistorial();
+
+        dskPanel.add(historial);
+        historial.setVisible(true);
     }//GEN-LAST:event_btnHistorialActionPerformed
 
     private void btnModificarContraseniaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnModificarContraseniaActionPerformed
-        
+        FrmModificarContrasenia modificarContrasenia = new FrmModificarContrasenia();
+
+        dskPanel.add(modificarContrasenia);
+        modificarContrasenia.setVisible(true);
     }//GEN-LAST:event_btnModificarContraseniaActionPerformed
 
     private void btnIniciarSesionActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnIniciarSesionActionPerformed
